@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal Ujian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Ujian Pilihan Ganda</h1>
+
+    <form id="quizForm">
+        <!-- Soal 1 -->
+        <div class="question">
+            <h3>1. Apa bahasa markup yang digunakan untuk membangun halaman web?</h3>
+            <label><input type="radio" name="q1" value="a"> a) Python</label><br>
+            <label><input type="radio" name="q1" value="b"> b) HTML</label><br>
+            <label><input type="radio" name="q1" value="c"> c) C++</label><br>
+            <label><input type="radio" name="q1" value="d"> d) Java</label>
+        </div>
+
+        <!-- Soal 2 -->
+        <div class="question">
+            <h3>2. CSS digunakan untuk apa?</h3>
+            <label><input type="radio" name="q2" value="a"> a) Mengolah data di server</label><br>
+            <label><input type="radio" name="q2" value="b"> b) Membuat tampilan halaman web</label><br>
+            <label><input type="radio" name="q2" value="c"> c) Menyimpan data dalam database</label><br>
+            <label><input type="radio" name="q2" value="d"> d) Membuat aplikasi desktop</label>
+            </div>
+    
+            <!-- Soal 3 -->
+            <div class="question">
+                <h3>3. kamu suka sama siapa?</h3>
+                <label><input type="radio" name="q3" value="a"> a) hewan</label><br>
+                <label><input type="radio" name="q3" value="b"> b) tumuhan</label><br>
+                <label><input type="radio" name="q3" value="c"> c) waifu</label><br>
+                <label><input type="radio" name="q3" value="d"> d) orang</label>
+            </div>
+    
+            <!-- Tombol Submit -->
+            <button type="button" onclick="checkAnswers()">Submit</button>
+    
+            <!-- Area untuk hasil -->
+            <div id="result"></div>
+        </form>
+    
+        <script src="script.js"></script>
+    
+    </body>
+    </html>
